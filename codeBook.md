@@ -46,10 +46,12 @@ The subject column identifies the subject who performed the activity for each wi
 
 
 Variable Selection Method
+=============================
+To extract only the measurements on the mean and standard deviation for each variable the grep function is used to select only columns that are mean or standard deviation calculations. 
 
-When extracting only the measurements on the mean and standard deviation for each variable the script chooses to also extract the meanFreq variables. These are kept because they also contain a mean calculation. The grep function is used to select only columns that are mean or standard deviation calculations. It also selects the subject and activity columns.
 
 Steps to Transform Data
+=============================
 The script:
 
 Loads data from UCI_HAR_Dataset directory
