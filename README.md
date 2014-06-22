@@ -1,4 +1,4 @@
-run_analysis
+README
 ============
 
 Coursera repo for assignment 2 - Getting and Cleaning Data
